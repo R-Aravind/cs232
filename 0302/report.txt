@@ -1,0 +1,70 @@
+CEC CS 18 C47 03-02-2020
+R ARAVIND
+
+--------------------------------
+#1: SCRIPTING TASK (t2)
+---------------------------------
+
+Command/Shell script/Program name
+---------------------------------
+	
+	/SX/script.sh
+
+Input: 
+---------------
+
+	# result downloaded from ktu site
+	/SX/result_CHN.pdf
+
+	# student details file containing roll number 
+	/SX/students.txt
+
+
+--------------------------------
+Output: 
+
+	# file with cgpa/count of subjects student failed in 
+	/SX/cgpa.txt
+
+
+-------------------
+Remarks if any:
+
+	X in 'SX' is replaced with 1 or 2 for corresponding semester
+	eg: /S1/script.sh
+
+
+-------------------------------------
+-------------------------------------
+
+--------------------------------
+#2: Create own web page at our server (t9)
+---------------------------------
+
+Command/Shell script/Program name
+---------------------------------
+		
+	# To fetch the sample index	
+	wget http://192.168.0.30/cs17d/cs17d00
+	# To put the page to the server
+	sftp
+	# To edit the contents of .html file
+	nano 	
+
+--------------------------------
+Output: 
+
+	# The page can be viewed at
+	http://192.168.0.30/cs17d/cs18c47
+
+-------------------
+Remarks if any:
+	
+	The server still shows the batch /cs17d, while our batch is /cs18c 
+	The links to thw work.txt nd report.txt are giving a HTTP 403
+	
+
+
+
+-------------------------------------
+-------------------------------------

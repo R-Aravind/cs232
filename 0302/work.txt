@@ -1,0 +1,264 @@
+Script started on Monday 03 February 2020 10:58:49 AM IST
+]0;student@ceclab2-H110M-S2: ~/ceccs18c47/cs232/0302[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c47/cs232/0302[00m$ wget http://192.168.0.30/cs17d/cs17d00/
+--2020-02-03 10:59:15--  http://192.168.0.30/cs17d/cs17d00/
+Connecting to 192.168.0.2:3128... connected.
+Proxy request sent, awaiting response... 200 OK
+Length: 2332 (2.3K) [text/html]
+Saving to: ‘index.html’
+
+index.html                             0%[                                                                    ]       0  --.-KB/s               index.html                           100%[===================================================================>]   2.28K  --.-KB/s    in 0s      
+
+2020-02-03 10:59:15 (301 MB/s) - ‘index.html’ saved [2332/2332]
+
+]0;student@ceclab2-H110M-S2: ~/ceccs18c47/cs232/0302[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c47/cs232/0302[00m$ nano [K[K[K[K[Kgedit[K[K[K[K[Ka[Knano index.html 
+[?1049h[1;43r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[?25l[39;49m(B[m[H[2J[41;65H(B[0;7m[ Reading File ][3d(B[m[41;71H(B[0;7m 91 lines ][3d(B[m[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3                                   File: index.html                                                                              [3;1H(B[0m[36m<!DOCTYPE html PUBLIC [32m"-//W3C//DTD HTML 4.01 Transitional//EN"[36m>[4d<html>[5;3H<head>[6;5H<meta http-equiv=[32m"content-type"[36m content=[32m"text/html; charset=UTF-8"[36m>[7;5H<title>[39m(B[mcs17d00[36m</title>[8;3H</head>[9;3H<body>[10;5H<div align=[32m"center"[36m>[39m(B[mS4D[36m<b>[39m(B[m CS232 Free and Open Source Software Lab[36m<br>[11;9H<br>[12;9H[39m(B[mHome page of cs17d00 Sample[36m<br>[13;7H</b>[14;7H<table width=[32m"100%"[36m border=[32m"1"[36m cellspacing=[32m"2"[36m cellpadding=[32m"2"[36m>[15;9H<tbody>[16;11H<tr>[17d<td valign=[32m"top"[36m><b>[39m(B[mNo[36m</b><br>[18;13H</td>[19;13H<td valign=[32m"top"[36m>[39m(B[mExperiment Description[36m<br>[20;13H</td>[21;13H<td valign=[32m"top"[36m>[39m(B[mCode Link[36m<br>[22;13H</td>[23;13H<td valign=[32m"top"[36m>[39m(B[mDate of [36m<br>[24;15H[39m(B[mUpload[36m<br>[25;13H</td>[26;13H<td valign=[32m"top"[36m>[39m(B[mDescription/Link[36m<br>[27;13H</td>[28;13H<td valign=[32m"top"[36m>[39m(B[mResult/Link[36m<br>[29;13H</td>[30;11H</tr>[31;11H<tr>[32d<td valign=[32m"top"[36m><br>[33;13H</td>[34;13H<td valign=[32m"top"[36m><br>[35;13H</td>[36;13H<td valign=[32m"top"[36m><br>[37;13H</td>[38;13H<td valign=[32m"top"[36m><br>[39;13H</td>[40;13H<td valign=[32m"top"[36m><br>[42d[39m(B[0;7m^G(B[m Get Help     (B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut Text     (B[0;7m^J(B[m Justify[81G(B[0;7m^C(B[m Cur Pos[97G(B[0;7m^Y(B[m Prev Page    (B[0;7mM-\(B[m First Line  (B[0;7mM-W(B[m WhereIs Next[43d(B[0;7m^X(B[m Exit[43;17H(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Uncut Text   (B[0;7m^T(B[m To Spell     (B[0;7m^_(B[m Go To Line   (B[0;7m^V(B[m Next Page    (B[0;7mM-/(B[m Last Line   (B[0;7mM-](B[m To Bracket[3d[4d[5d[6d    [C[C[C[C[C[C[C[C[C[C[7d7[1;136H(B[0;7mModified[7;15H(B[m[1P8d00[36m</title>[7;16H[39m(B[m[8;10H[9d[A[A[41d[K[7d    [C[C[C[C[C[C[Ccs18d00[1P0[1P[1Pc[36m</title>[7;17H[39m(B[m4[36m</title>[7;18H[39m(B[m7[36m</title>[7;19H[39m(B[m[8;10H[9d[10d    [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CS4D[1P[1PC[36m<b>[39m(B[m CS232 Free and Open Source Software Lab[36m<br>[10;27H[39m(B[m[1P4[36m<b>[39m(B[m CS232 Free and Open Source Software Lab[36m<br>[10;27H[39m(B[mC[36m<b>[39m(B[m CS232 Free and Open Source Software Lab[36m<br>[10;28H[39m(B[m[11;13H[12;28H0[1P0[1P[1P[1P[1P1 Sample[36m<br>[12;25H[39m(B[m8 Sample[36m<br>[12;26H[39m(B[mc Sample[36m<br>[12;27H[39m(B[m4 Sample[36m<br>[12;28H[39m(B[m7 Sample[36m<br>[12;29H[39m(B[m[13;11H[14;29H[15;16H[16d[17;29H[18;18H[19;29H[20;18H[21;29H[22;18H[23;29H[24;25H[25;18H[26;29H[27;18H[28;29H[29;18H[30d[31d[32;29H[33;18H[34;29H[35;18H[36;29H[37;18H[38;29H[39;18H[40;29H7[3;41r8[41d[20S[1;43r[21;13H[36m</td>[22;13H<td valign=[32m"top"[36m><br>[23;13H</td>[24;11H</tr>[25;11H<tr>[26d<td valign=[32m"top"[36m><br>[27;13H</td>[28;13H<td valign=[32m"top"[36m><br>[29;13H</td>[30;13H<td valign=[32m"top"[36m><br>[31;13H</td>[32;13H<td valign=[32m"top"[36m><br>[33;13H</td>[34;13H<td valign=[32m"top"[36m><br>[35;13H</td>[36;13H<td valign=[32m"top"[36m><br>[37;13H</td>[38;11H</tr>[39;11H<tr>[40d<td valign=[32m"top"[36m><br>[21;18H[39m(B[m[22;29H[23;18H[24d[25d[26;29H[27;18H[28;29H[29;18H[30;29H[31;18H[32;29H[33;18H[34;29H[35;18H[36;29H[37;18H[38d[39d[40;29H[3;14H[36m/td>[39m(B[m[K[4;11H[36m</tr>[39m(B[m[K[5;11H[36m<tr>[39m(B[m[K[6;30H[36m<br>[39m(B[m[K[8;30H[36m<br>[39m(B[m[K[10;11H  [36m<td valign=[32m"top"[36m><br>[11;11H[39m(B[m  [36m</td>[18;11H</tr>[39m(B[m[K[19;11H[36m<tr>[39m(B[m[K[24;11H  [36m<td valign=[32m"top"[36m><br>[25;11H[39m(B[m  [36m</td>[32;11H</tr>[39m(B[m[K[33;11H[36m<tr>[39m(B[m[K[38;11H  [36m<td valign=[32m"top"[36m><br>[39;11H[39m(B[m  [36m</td>[21;18H[39m(B[m[22;29H[23;18H[24;29H[25;18H[26;29H[27;18H[28;29H[29;18H[30;29H[31;18H[32d[33d[34;29H[35;18H[36;29H[37;18H[38;29H[39;18H[40;29H[4;11H  [36m<td valign=[32m"top"[36m><br>[5;11H[39m(B[m  [36m</td>[12;11H</tr>[39m(B[m[K[13;11H[36m<tr>[39m(B[m[K[18;11H  [36m<td valign=[32m"top"[36m><br>[19;11H[39m(B[m  [36m</td>[26;11H</tr>[39m(B[m[K[27;9H[36m</tbody>[39m(B[m[K[28;7H[36m</table>[39m(B[m[K[29;7H[36m<b><br>[39m(B[m[K[30;9H[36m<br>[39m(B[m[K[31;7H[36m</b></div>[39m(B[m[K[32;3H[36m</body>[39m(B[m[K[33d[36m</html>[39m(B[m[K[34d[K[35d[K[36d[K[37d[K[38d[K[39d[K[40d[K[21;18H[22;29H[23;18H[24;29H[25;18H[26d[27;17H[28d[29d[30d[31;17H[32;10H[33d[34d[33;8H[32;10H[31;17H[A[A[C[A[C[27;17H[A[25;18H[24;29H[23;18H[22;29H[21;18H[20;29H[19;18H[18;29H[17;18H[16;29H[15;18H[14;29H[13;15H[A[C[11;18H[10;29H[9;18H[8;29H[7;18H[6;29H[5;18H[4;29H[3;18H[4;11H[36m</tr>[39m(B[m[K[5;11H[36m<tr>[39m(B[m[K[12;11H  [36m<td valign=[32m"top"[36m><br>[13;11H[39m(B[m  [36m</td>[18;11H</tr>[39m(B[m[K[19;11H[36m<tr>[39m(B[m[K[26;11H  [36m<td valign=[32m"top"[36m><br>[27;9H[39m(B[m    [36m</td>[28;12H[39m(B[m[1K [36m<td valign=[32m"top"[36m><br>[29;12H[39m(B[m[1K [36m</td>[30;9H[39m(B[m    [36m<td valign=[32m"top"[36m><br>[31;12H[39m(B[m[1K [36m</td>[32;10H[39m(B[m[1K [36m</tr>[33;10H[39m(B[m[1K [36m<tr>[34d<td valign=[32m"top"[36m><br>[35;13H</td>[36;13H<td valign=[32m"top"[36m><br>[37;13H</td>[38;13H<td valign=[32m"top"[36m><br>[39;13H</td>[40;13H<td valign=[32m"top"[36m><br>[22;29H[39m(B[m[21;18H[20;29H[19;15H[A[C[17;18H[16;29H[15;18H[14;29H[13;18H[12;29H[11;18H[10;29H[9;18H[8;29H[7;18H[6;29H[5;15H[A[C[3;18H[36mtd valign=[32m"top"[36m>[39m(B[mDate of [36m<br>[4;11H[39m(B[m    Upload[36m<br>[5;11H[39m(B[m  [36m</td>[6;30H[39m(B[mDescription/Link[36m<br>[8;30H[39m(B[mResult/Link[36m<br>[10;11H</tr>[39m(B[m[K[11;11H[36m<tr>[39m(B[m[K[18;11H  [36m<td valign=[32m"top"[36m><br>[19;11H[39m(B[m  [36m</td>[24;11H</tr>[39m(B[m[K[25;11H[36m<tr>[39m(B[m[K[32;11H  [36m<td valign=[32m"top"[36m><br>[33;11H[39m(B[m  [36m</td>[38;11H</tr>[39m(B[m[K[39;11H[36m<tr>[39m(B[m[K[22;29H[21;18H[20;29H[19;18H[18;29H[17;18H[16;29H[15;18H[14;29H[13;18H[12;29H[11;15H[A[C[9;18H[8;29H[7;18H[6;29H[5;18H[4;25H[3;29H[2;40r[2;1H[20T[1;43r[3;1H[36m<!DOCTYPE html PUBLIC [32m"-//W3C//DTD HTML 4.01 Transitional//EN"[36m>[4d<html>[5;3H<head>[6;5H<meta http-equiv=[32m"content-type"[36m content=[32m"text/html; charset=UTF-8"[36m>[7;5H<title>[39m(B[mcs18c47[36m</title>[8;3H</head>[9;3H<body>[10;5H<div align=[32m"center"[36m>[39m(B[mS4C[36m<b>[39m(B[m CS232 Free and Open Source Software Lab[36m<br>[11;9H<br>[12;9H[39m(B[mHome page of cs18c47 Sample[36m<br>[13;7H</b>[14;7H<table width=[32m"100%"[36m border=[32m"1"[36m cellspacing=[32m"2"[36m cellpadding=[32m"2"[36m>[15;9H<tbody>[16;11H<tr>[17d<td valign=[32m"top"[36m><b>[39m(B[mNo[36m</b><br>[18;13H</td>[19;13H<td valign=[32m"top"[36m>[39m(B[mExperiment Description[36m<br>[20;13H</td>[21;13H<td valign=[32m"top"[36m>[39m(B[mCode Link[36m<br>[22;13H</td>[39m(B[m[21;29H[20;18H[19;29H[18;18H[17;29H[16;15H[A[C[14;29H[13;11H[12;29H[11;13H[10;29H[9;9H[A[C[7;27H[6;29H[5;9H[A[3;29H[41d(B[0;7mFile Name to Write: index.html                                                                                                                   [42;17H(B[m             (B[0;7mM-D(B[m DOS Format[15X[42;59H(B[0;7mM-A(B[m Append      [81G       (B[0;7mM-B(B[m Backup File[K[43;2H(B[0;7mC(B[m Cancel[17G             (B[0;7mM-M(B[m Mac Format[15X[43;59H(B[0;7mM-P(B[m Prepend[18X[43;88H(B[0;7m^T(B[m To Files[K[41;31H[?25l[41;63H[39;49m(B[m[1K (B[0;7m[ Wrote 91 lines ](B[m[K[3;29H[?12l[?25h[1;136H(B[0;7m        [42;17H^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut Text     (B[0;7m^J(B[m Justify[81G(B[0;7m^C(B[m Cur Pos      (B[0;7m^Y(B[m Prev Page    (B[0;7mM-\(B[m First Line  (B[0;7mM-W(B[m WhereIs Next[43;2H(B[0;7mX(B[m Exit  [17G(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace      (B[0;7m^U(B[m Uncut Text   (B[0;7m^T(B[m To Spell     (B[0;7m^_(B[m Go To Line   (B[0;7m^V(B[m Next Page    (B[0;7mM-/(B[m Last Line   (B[0;7mM-](B[m To Bracket[3;29H[41d[J[43;145H[43;1H[?1049l[?1l>]0;student@ceclab2-H110M-S2: ~/ceccs18c47/cs232/0302[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c47/cs232/0302[00m$ ssh cs18c47@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c47@192.168.0.30's password: 
+Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
+
+ * Website:  http://elementary.io/
+
+402 packages can be updated.
+0 updates are security updates.
+
+Last login: Mon Feb  3 10:28:30 2020 from 192.168.0.75
+$ ls
+0302  2001  2701  examples.desktop
+$ cd /    l cd /	    ls /
+bin   cdrom  dev  home	      lib    lib64	 media	opt   root  sbin  srv  tmp  var
+boot  core   etc  initrd.img  lib32  lost+found  mnt	proc  run   snap  sys  usr  vmlinuz
+$ ls /h	o	 om       cd /h	ome
+$ ls
+ask	 cs17d11  cs17d24  cs17d37  cs17d50  cs18c00  cs18c13  cs18c26	cs18c39  cs18c52  cs18c65  ee18e12  ee18e25  ee18f04  ee18f17  ee18f30
+cec	 cs17d12  cs17d25  cs17d38  cs17d51  cs18c01  cs18c14  cs18c27	cs18c40  cs18c53  ee18e00  ee18e13  ee18e26  ee18f05  ee18f18  ee18f31
+cs17d00  cs17d13  cs17d26  cs17d39  cs17d52  cs18c02  cs18c15  cs18c28	cs18c41  cs18c54  ee18e01  ee18e14  ee18e27  ee18f06  ee18f19  ee18f32
+cs17d01  cs17d14  cs17d27  cs17d40  cs17d53  cs18c03  cs18c16  cs18c29	cs18c42  cs18c55  ee18e02  ee18e15  ee18e28  ee18f07  ee18f20  ee18f33
+cs17d02  cs17d15  cs17d28  cs17d41  cs17d54  cs18c04  cs18c17  cs18c30	cs18c43  cs18c56  ee18e03  ee18e16  ee18e29  ee18f08  ee18f21  exam19
+cs17d03  cs17d16  cs17d29  cs17d42  cs17d55  cs18c05  cs18c18  cs18c31	cs18c44  cs18c57  ee18e04  ee18e17  ee18e30  ee18f09  ee18f22  hari
+cs17d04  cs17d17  cs17d30  cs17d43  cs17d56  cs18c06  cs18c19  cs18c32	cs18c45  cs18c58  ee18e05  ee18e18  ee18e31  ee18f10  ee18f23  ieeecec
+cs17d05  cs17d18  cs17d31  cs17d44  cs17d57  cs18c07  cs18c20  cs18c33	cs18c46  cs18c59  ee18e06  ee18e19  ee18e32  ee18f11  ee18f24
+cs17d06  cs17d19  cs17d32  cs17d45  cs17d58  cs18c08  cs18c21  cs18c34	cs18c47  cs18c60  ee18e07  ee18e20  ee18e33  ee18f12  ee18f25
+cs17d07  cs17d20  cs17d33  cs17d46  cs17d59  cs18c09  cs18c22  cs18c35	cs18c48  cs18c61  ee18e08  ee18e21  ee18f00  ee18f13  ee18f26
+cs17d08  cs17d21  cs17d34  cs17d47  cs17d60  cs18c10  cs18c23  cs18c36	cs18c49  cs18c62  ee18e09  ee18e22  ee18f01  ee18f14  ee18f27
+cs17d09  cs17d22  cs17d35  cs17d48  cs17d61  cs18c11  cs18c24  cs18c37	cs18c50  cs18c63  ee18e10  ee18e23  ee18f02  ee18f15  ee18f28
+cs17d10  cs17d23  cs17d36  cs17d49  cs17d62  cs18c12  cs18c25  cs18c38	cs18c51  cs18c64  ee18e11  ee18e24  ee18f03  ee18f16  ee18f29
+$ ls cs17d00
+01  05	10  15	19  23	28  32	36  40	44  48	52  56	60    cd08	   examples.desktop  Math.txt	   readme.txt	  sort_Phy.txt
+02  06	11  16	20  24	29  33	37  41	45  49	53  57	61    Chem.txt	   index.html	     Phy.txt	   result.txt	  TotalMat.txt
+03  07	12  17	21  25	30  34	38  42	46  50	54  58	62    cs17d26.txt  marklist.txt      ranklist.txt  sort_Chem.txt  total.txt
+04  09	13  18	22  27	31  35	39  43	47  51	55  59	abcd  cs17d42.sh   MathChem.txt      rank.txt	   sort_Math.txt
+$ cd cs18c47
+$ put ind	 dex.thml    html
+-sh: 7: put: not found
+$ quit
+-sh: 8: quit: not found
+$ exit
+Connection to 192.168.0.30 closed.
+]0;student@ceclab2-H110M-S2: ~/ceccs18c47/cs232/0302[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c47/cs232/0302[00m$ scp [K[K[K[Ksftp c18c47@192.168.1[K0.30[K0
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+c18c47@192.168.0.30's password: 
+Permission denied, please try again.
+c18c47@192.168.0.30's password: 
+
+[1]+  Stopped                 sftp c18c47@192.168.0.30
+]0;student@ceclab2-H110M-S2: ~/ceccs18c47/cs232/0302[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c47/cs232/0302[00m$ sftp c18c47@192.168.0.30[Cs18c47@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c47@192.168.0.30's password: 
+Connected to 192.168.0.30.
+sftp> put[K[K[Kls
+0302              2001              2701              examples.desktop  
+sftp> put inde[Ksftp> put index.html 
+Uploading index.html to /home/cs18c47/index.html
+index.html                                                                                                       0%    0     0.0KB/s   --:-- ETAindex.html                                                                                                     100% 2332     2.3KB/s   00:00    
+sftp> quit
+]0;student@ceclab2-H110M-S2: ~/ceccs18c47/cs232/0302[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c47/cs232/0302[00m$ c
+[3;J[H[2J]0;student@ceclab2-H110M-S2: ~/ceccs18c47/cs232/0302[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c47/cs232/0302[00m$ csftp cs18c47@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c47@192.168.0.30's password: 
+Connected to 192.168.0.30.
+sftp> ls
+0302              2001              2701              examples.desktop  index.html        
+sftp> d [Kc[Kls /
+/bin         /boot        /cdrom       /core        /dev         /etc         /home        /initrd.img  /lib         /lib32       /lib64       
+/lost+found  /media       /mnt         /opt         /proc        /root        /run         /sbin        /snap        /srv         /sys         
+/tmp         /usr         /var         /vmlinuz     
+sftp> ls /m[Kh[Ksftp> ls /home/
+/home/ask       /home/cec       /home/cs17d00   /home/cs17d01   /home/cs17d02   /home/cs17d03   /home/cs17d04   /home/cs17d05   /home/cs17d06   
+/home/cs17d07   /home/cs17d08   /home/cs17d09   /home/cs17d10   /home/cs17d11   /home/cs17d12   /home/cs17d13   /home/cs17d14   /home/cs17d15   
+/home/cs17d16   /home/cs17d17   /home/cs17d18   /home/cs17d19   /home/cs17d20   /home/cs17d21   /home/cs17d22   /home/cs17d23   /home/cs17d24   
+/home/cs17d25   /home/cs17d26   /home/cs17d27   /home/cs17d28   /home/cs17d29   /home/cs17d30   /home/cs17d31   /home/cs17d32   /home/cs17d33   
+/home/cs17d34   /home/cs17d35   /home/cs17d36   /home/cs17d37   /home/cs17d38   /home/cs17d39   /home/cs17d40   /home/cs17d41   /home/cs17d42   
+/home/cs17d43   /home/cs17d44   /home/cs17d45   /home/cs17d46   /home/cs17d47   /home/cs17d48   /home/cs17d49   /home/cs17d50   /home/cs17d51   
+/home/cs17d52   /home/cs17d53   /home/cs17d54   /home/cs17d55   /home/cs17d56   /home/cs17d57   /home/cs17d58   /home/cs17d59   /home/cs17d60   
+/home/cs17d61   /home/cs17d62   /home/cs18c00   /home/cs18c01   /home/cs18c02   /home/cs18c03   /home/cs18c04   /home/cs18c05   /home/cs18c06   
+/home/cs18c07   /home/cs18c08   /home/cs18c09   /home/cs18c10   /home/cs18c11   /home/cs18c12   /home/cs18c13   /home/cs18c14   /home/cs18c15   
+/home/cs18c16   /home/cs18c17   /home/cs18c18   /home/cs18c19   /home/cs18c20   /home/cs18c21   /home/cs18c22   /home/cs18c23   /home/cs18c24   
+/home/cs18c25   /home/cs18c26   /home/cs18c27   /home/cs18c28   /home/cs18c29   /home/cs18c30   /home/cs18c31   /home/cs18c32   /home/cs18c33   
+/home/cs18c34   /home/cs18c35   /home/cs18c36   /home/cs18c37   /home/cs18c38   /home/cs18c39   /home/cs18c40   /home/cs18c41   /home/cs18c42   
+/home/cs18c43   /home/cs18c44   /home/cs18c45   /home/cs18c46   /home/cs18c47   /home/cs18c48   /home/cs18c49   /home/cs18c50   /home/cs18c51   
+/home/cs18c52   /home/cs18c53   /home/cs18c54   /home/cs18c55   /home/cs18c56   /home/cs18c57   /home/cs18c58   /home/cs18c59   /home/cs18c60   
+/home/cs18c61   /home/cs18c62   /home/cs18c63   /home/cs18c64   /home/cs18c65   /home/ee18e00   /home/ee18e01   /home/ee18e02   /home/ee18e03   
+/home/ee18e04   /home/ee18e05   /home/ee18e06   /home/ee18e07   /home/ee18e08   /home/ee18e09   /home/ee18e10   /home/ee18e11   /home/ee18e12   
+/home/ee18e13   /home/ee18e14   /home/ee18e15   /home/ee18e16   /home/ee18e17   /home/ee18e18   /home/ee18e19   /home/ee18e20   /home/ee18e21   
+/home/ee18e22   /home/ee18e23   /home/ee18e24   /home/ee18e25   /home/ee18e26   /home/ee18e27   /home/ee18e28   /home/ee18e29   /home/ee18e30   
+/home/ee18e31   /home/ee18e32   /home/ee18e33   /home/ee18f00   /home/ee18f01   /home/ee18f02   /home/ee18f03   /home/ee18f04   /home/ee18f05   
+/home/ee18f06   /home/ee18f07   /home/ee18f08   /home/ee18f09   /home/ee18f10   /home/ee18f11   /home/ee18f12   /home/ee18f13   /home/ee18f14   
+/home/ee18f15   /home/ee18f16   /home/ee18f17   /home/ee18f18   /home/ee18f19   /home/ee18f20   /home/ee18f21   /home/ee18f22   /home/ee18f23   
+/home/ee18f24   /home/ee18f25   /home/ee18f26   /home/ee18f27   /home/ee18f28   /home/ee18f29   /home/ee18f30   /home/ee18f31   /home/ee18f32   
+/home/ee18f33   /home/exam19    /home/hari      /home/ieeecec   
+sftp> quit
+]0;student@ceclab2-H110M-S2: ~/ceccs18c47/cs232/0302[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c47/cs232/0302[00m$ ssftp cs18c47@192.168.0.30c[Ksftp cs18c47@192.168.0.30[1P18c47@192.168.0.30sh cs18c47@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c47@192.168.0.30's password: 
+Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
+
+ * Website:  http://elementary.io/
+
+402 packages can be updated.
+0 updates are security updates.
+
+Last login: Mon Feb  3 11:03:59 2020 from 192.168.0.75
+$ nano ind	 dex.html
+[?1049h[1;43r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[?25l[39;49m(B[m[H[2J[41;65H(B[0;7m[ Reading File ][3d(B[m[41;71H(B[0;7m 91 lines ][3d(B[m[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3                                   File: index.html                                                                              [3;1H(B[0m[36m<!DOCTYPE html PUBLIC [32m"-//W3C//DTD HTML 4.01 Transitional//EN"[36m>[4d<html>[5;3H<head>[6;5H<meta http-equiv=[32m"content-type"[36m content=[32m"text/html; charset=UTF-8"[36m>[7;5H<title>[39m(B[mcs18c47[36m</title>[8;3H</head>[9;3H<body>[10;5H<div align=[32m"center"[36m>[39m(B[mS4C[36m<b>[39m(B[m CS232 Free and Open Source Software Lab[36m<br>[11;9H<br>[12;9H[39m(B[mHome page of cs18c47 Sample[36m<br>[13;7H</b>[14;7H<table width=[32m"100%"[36m border=[32m"1"[36m cellspacing=[32m"2"[36m cellpadding=[32m"2"[36m>[15;9H<tbody>[16;11H<tr>[17d<td valign=[32m"top"[36m><b>[39m(B[mNo[36m</b><br>[18;13H</td>[19;13H<td valign=[32m"top"[36m>[39m(B[mExperiment Description[36m<br>[20;13H</td>[21;13H<td valign=[32m"top"[36m>[39m(B[mCode Link[36m<br>[22;13H</td>[23;13H<td valign=[32m"top"[36m>[39m(B[mDate of [36m<br>[24;15H[39m(B[mUpload[36m<br>[25;13H</td>[26;13H<td valign=[32m"top"[36m>[39m(B[mDescription/Link[36m<br>[27;13H</td>[28;13H<td valign=[32m"top"[36m>[39m(B[mResult/Link[36m<br>[29;13H</td>[30;11H</tr>[31;11H<tr>[32d<td valign=[32m"top"[36m><br>[33;13H</td>[34;13H<td valign=[32m"top"[36m><br>[35;13H</td>[36;13H<td valign=[32m"top"[36m><br>[37;13H</td>[38;13H<td valign=[32m"top"[36m><br>[39;13H</td>[40;13H<td valign=[32m"top"[36m><br>[42d[39m(B[0;7m^G(B[m Get Help     (B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut Text     (B[0;7m^J(B[m Justify[81G(B[0;7m^C(B[m Cur Pos[97G(B[0;7m^Y(B[m Prev Page    (B[0;7mM-\(B[m First Line  (B[0;7mM-W(B[m WhereIs Next[43d(B[0;7m^X(B[m Exit[43;17H(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Uncut Text   (B[0;7m^T(B[m To Spell     (B[0;7m^_(B[m Go To Line   (B[0;7m^V(B[m Next Page    (B[0;7mM-/(B[m Last Line   (B[0;7mM-](B[m To Bracket[3d[4d[5d[6d[7d[8d[9d[10d[11d[12d[13d[14d[15d[16d[17d[18d[19d[20d[21d[22d[23d[24d[25d[26d[27d[28d[41d[K[29d[30d[31d[32d            [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[42d[J[43;145H[43;1H[?1049l[?1l>$ qu  exit
+Connection to 192.168.0.30 closed.
+]0;student@ceclab2-H110M-S2: ~/ceccs18c47/cs232/0302[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c47/cs232/0302[00m$ [K]0;student@ceclab2-H110M-S2: ~/ceccs18c47/cs232/0302[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c47/cs232/0302[00m$ ssh cs18c47@192.168.0.30[Kssh cs18c47@192.168.0.30[1@ftp[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c47@192.168.0.30's password: 
+Connected to 192.168.0.30.
+sftp> l[Kls
+0302              2001              2701              examples.desktop  index.html        
+sftp> cd 0[Ksftp> cd 0302/
+sftp> ls
+sftp> cd ..
+sftp> put i[Ksftp> put index.html 
+Uploading index.html to /home/cs18c47/index.html
+index.html                                                                                                       0%    0     0.0KB/s   --:-- ETAindex.html                                                                                                     100% 2629     2.6KB/s   00:00    
+sftp> put index.html
+Uploading index.html to /home/cs18c47/index.html
+index.html                                                                                                       0%    0     0.0KB/s   --:-- ETAindex.html                                                                                                     100% 2713     2.7KB/s   00:00    
+sftp> c[Kcd 3~[K[K03[Ksftp> cd 0302/
+sftp> ls
+sftp> lcd[K[Kls
+index.html  report.txt	S1  S2	script.sh  work.txt
+sftp> w[Kput [K[K[Kquit[K[K[K[Kexit
+]0;student@ceclab2-H110M-S2: ~/ceccs18c47/cs232/0302[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c47/cs232/0302[00m$ cd S1
+]0;student@ceclab2-H110M-S2: ~/ceccs18c47/cs232/0302/S1[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c47/cs232/0302/S1[00m$ ./script.sh 
+[3;J[H[2J]0;student@ceclab2-H110M-S2: ~/ceccs18c47/cs232/0302/S1[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c47/cs232/0302/S1[00m$ head cgpa.txt 
+CHN18CS002 ABHIITHP  failed in 4
+CHN18CS003 ABIN BINU SAM  9.33
+CHN18CS005 ADHIL SHAHANAD K K  8.06
+CHN18CS006 ADWAITH SIVAN  failed in 3
+CHN18CS007 Aju George Jacob  8.56
+CHN18CS008 AKHIL RAVINDRAN  7.94
+CHN18CS012 ALKA ANNA SABU  8.22
+CHN18CS015 Amal Ramachandran  failed in 4
+CHN18CS018 ANJANA S  9.33
+CHN18CS023 ARAVIND R  7.89
+]0;student@ceclab2-H110M-S2: ~/ceccs18c47/cs232/0302/S1[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c47/cs232/0302/S1[00m$ exit[K[K[K[Kcd ..
+]0;student@ceclab2-H110M-S2: ~/ceccs18c47/cs232/0302[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c47/cs232/0302[00m$ exit
+exit
+There are stopped jobs.
+]0;student@ceclab2-H110M-S2: ~/ceccs18c47/cs232/0302[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c47/cs232/0302[00m$ c[Kexitcd ..head cgpa.txt [2P./script.sh[C[7Pcd S1sftp cs18c47@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c47@192.168.0.30's password: 
+Connected to 192.168.0.30.
+sftp> ls
+0302              2001              2701              examples.desktop  index.html        
+sftp> cd 0[Ksftp> cd 0302/
+sftp> ls
+sftp> put oi[K[Kind[Ksftp> put index.html 
+Uploading index.html to /home/cs18c47/0302/index.html
+index.html                                                                                                       0%    0     0.0KB/s   --:-- ETAindex.html                                                                                                     100% 2713     2.7KB/s   00:00    
+sftp> put re[Ksftp> put report.txt 
+Uploading report.txt to /home/cs18c47/0302/report.txt
+report.txt                                                                                                       0%    0     0.0KB/s   --:-- ETAreport.txt                                                                                                     100% 1369     1.3KB/s   00:00    
+sftp> put wor[Ksftp> put work.txt 
+Uploading work.txt to /home/cs18c47/0302/work.txt
+work.txt                                                                                                         0%    0     0.0KB/s   --:-- ETAwork.txt                                                                                                       100%   24KB  24.0KB/s   00:00    
+sftp> lls
+index.html  report.txt	S1  S2	script.sh  work.txt
+sftp> put s[Ksftp> put script.sh 
+Uploading script.sh to /home/cs18c47/0302/script.sh
+script.sh                                                                                                        0%    0     0.0KB/s   --:-- ETAscript.sh                                                                                                      100% 1550     1.5KB/s   00:00    
+sftp> md[Kkdir[K[K[K[K[Kw[Kp[Kcd S[K[K[Kls
+index.html  report.txt  script.sh   work.txt    
+sftp> mkdir S1
+sftp> mkdir S2
+sftp> cd S1
+sftp> lcd S1
+sftp> lpwd
+Local working directory: /home/student/ceccs18c47/cs232/0302/S1
+sftp> lls
+cgpa.txt  result_CHN.pdf  result_CHN.txt  script.sh  students.txt
+sftp> put re
+result_CHN.pdf  result_CHN.txt  
+[Ksftp> put result_CHN.[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcd ..
+sftp> lcd ..
+sftp> put re[Ksftp> put report.txt 
+Uploading report.txt to /home/cs18c47/0302/report.txt
+report.txt                                                                                                       0%    0     0.0KB/s   --:-- ETAreport.txt                                                                                                     100% 1371     1.3KB/s   00:00    
+sftp> put report.txt[K[K[K[K[K[K[K[K[K[Kw[Ksftp> put work.txt 
+Uploading work.txt to /home/cs18c47/0302/work.txt
+work.txt                                                                                                         0%    0     0.0KB/s   --:-- ETAwork.txt                                                                                                       100%   28KB  28.0KB/s   00:00    
+sftp> mput [K[K[K[Kcd S
+S1/  S2/  
+[Ksftp> cd S1
+sftp> lcs[Kd S`~~[K[K[K1
+sftp> mput *
+Uploading cgpa.txt to /home/cs18c47/0302/S1/cgpa.txt
+cgpa.txt                                                                                                         0%    0     0.0KB/s   --:-- ETAcgpa.txt                                                                                                       100% 2146     2.1KB/s   00:00    
+Uploading result_CHN.pdf to /home/cs18c47/0302/S1/result_CHN.pdf
+result_CHN.pdf                                                                                                   0%    0     0.0KB/s   --:-- ETAresult_CHN.pdf                                                                                                 100%   28KB  27.5KB/s   00:00    
+Uploading result_CHN.txt to /home/cs18c47/0302/S1/result_CHN.txt
+result_CHN.txt                                                                                                   0%    0     0.0KB/s   --:-- ETAresult_CHN.txt                                                                                                 100%   46KB  46.1KB/s   00:00    
+Uploading script.sh to /home/cs18c47/0302/S1/script.sh
+script.sh                                                                                                        0%    0     0.0KB/s   --:-- ETAscript.sh                                                                                                      100% 1550     1.5KB/s   00:00    
+Uploading students.txt to /home/cs18c47/0302/S1/students.txt
+students.txt                                                                                                     0%    0     0.0KB/s   --:-- ETAstudents.txt                                                                                                   100% 1677     1.6KB/s   00:00    
+sftp> ls
+cgpa.txt        result_CHN.pdf  result_CHN.txt  script.sh       students.txt    
+sftp> lls
+cgpa.txt  result_CHN.pdf  result_CHN.txt  script.sh  students.txt
+sftp> cd ..
+sftp> cd S2
+sftp> m[Klcd ..
+sftp> lcd S3[K2
+sftp> ,[Kmput *
+Uploading cgpa.txt to /home/cs18c47/0302/S2/cgpa.txt
+cgpa.txt                                                                                                         0%    0     0.0KB/s   --:-- ETAcgpa.txt                                                                                                       100% 2174     2.1KB/s   00:00    
+Uploading result_CHN.pdf to /home/cs18c47/0302/S2/result_CHN.pdf
+result_CHN.pdf                                                                                                   0%    0     0.0KB/s   --:-- ETAresult_CHN.pdf                                                                                                 100%   26KB  26.4KB/s   00:00    
+Uploading result_CHN.txt to /home/cs18c47/0302/S2/result_CHN.txt
+result_CHN.txt                                                                                                   0%    0     0.0KB/s   --:-- ETAresult_CHN.txt                                                                                                 100%   43KB  43.5KB/s   00:00    
+Uploading script.sh to /home/cs18c47/0302/S2/script.sh
+script.sh                                                                                                        0%    0     0.0KB/s   --:-- ETAscript.sh                                                                                                      100% 1550     1.5KB/s   00:00    
+Uploading students.txt to /home/cs18c47/0302/S2/students.txt
+students.txt                                                                                       
