@@ -1,0 +1,84 @@
+CEC CS 18 C47 10-02-2020
+R ARAVIND
+
+--------------------------------
+#1: Setting up http and ftp servers (t7)
+---------------------------------
+
+Command/Shell script/Program name
+---------------------------------
+	
+	# install ftp server
+	sudo apt-get install vsftpd
+	
+	# edit server configuration
+	sudo vim /etc/vsftpd.conf
+	
+	# connect to ftp on local server
+	fpt localhost	
+	
+	# install apache2
+	sudo apt-get install apache2
+	
+	# edit HTML file
+	sudo vim /var/www/html/index.html
+
+--------------------------------
+Output: 
+	
+	# ftp server available at 192.168.0.75 
+	
+	# Apache http server :screenshot of webpage attached.
+	capture.png	
+
+-------------------
+Remarks if any:
+
+
+
+-------------------------------------
+-------------------------------------
+
+--------------------------------
+#2: Perl (t8) (2)
+---------------------------------
+
+Command/Shell script/Program name
+---------------------------------
+	
+	# Hello world program
+	/perl/helloworld.pl	
+
+	# Program to add two numbers
+	/perl/add2numbers.pl
+
+	# Program to access an array
+	/perl/arrays.pl
+
+--------------------------------
+Output: 
+	
+	# Output of helloworld.pl
+	Hello Perl
+
+	# Output of add2numbers.pl
+	Enter two numbers: 2
+	3
+	
+	Sum is 5
+
+	# Output of arrays.pl	
+	
+	c++
+	c
+	java
+	python
+	javascript
+
+-------------------
+Remarks if any:
+
+
+
+-------------------------------------
+-------------------------------------
