@@ -1,0 +1,33 @@
+CEC CS 18 C47 24-02-2020
+MAC Address - e0:d5:5e:03:e8:35
+R ARAVIND
+
+
+--------------------------------
+#1: Linux Installation (t6)
+---------------------------------
+
+Command/Shell script/Program name
+---------------------------------
+	
+	# Linux CD
+	Linux Mint 10 Julia
+
+	# To update grub configuration
+	update-grub	
+
+--------------------------------
+Output: 
+	
+	# Screenshots 1-5 (.png) shows various steps of installation
+	# Screenshot 6.png shows update-grub in action	
+	
+	# Linux Mint is installed alongside Ubuntu in a partion of 97GB.
+
+-------------------
+Remarks if any:
+	
+	
+
+-------------------------------------
+-------------------------------------
