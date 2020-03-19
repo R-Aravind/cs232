@@ -1,0 +1,82 @@
+CEC CS 18 C47 17-03-2020
+R ARAVIND
+
+--------------------------------
+#1: Kernel Compilation (t8)
+---------------------------------
+
+Command/Shell script/Program name
+---------------------------------
+	
+	# Download the latest stable kernel (source: kernel.org)
+	wget https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.5.9.tar.xz
+	
+	# Extract the source code
+	unxz -v linux-5.5.9.tar.xz
+	
+	# Download the PGP Signature for the kernel (source: kernel.org)
+	wget https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.5.9.tar.sign
+	
+	# Verify the kernel tartball with GnuPG
+	gpg --verify linux-5.5.9.tar.sign
+	
+	# Extract the tartball
+	tar xvf linux-5.5.9.tar
+	
+	cd linux-5.5.9
+	
+	# create the configuration file (copied the existing config for convinience) 
+	cp -v /boot/config-$(uname -r) .config
+	
+	# Install Development tools required to compile the kernel
+	sudo apt-get install build-essential libncurses-dev bison flex libssl-dev libelf-dev
+	
+	# Compile the Kernel 
+	make -j $(nproc)
+	
+	
+--------------------------------
+Output: 
+
+	
+
+-------------------
+Remarks if any:
+
+	
+
+
+-------------------------------------
+-------------------------------------
+
+--------------------------------
+#2: Create own web page at our server (t9)
+---------------------------------
+
+Command/Shell script/Program name
+---------------------------------
+		
+	# To fetch the sample index	
+	wget http://192.168.0.30/cs17d/cs17d00
+	# To put the page to the server
+	sftp
+	# To edit the contents of .html file
+	nano 	
+
+--------------------------------
+Output: 
+
+	# The page can be viewed at
+	http://192.168.0.30/cs17d/cs18c47
+
+-------------------
+Remarks if any:
+	
+	The server still shows the batch /cs17d, while our batch is /cs18c 
+	The links to thw work.txt nd report.txt are giving a HTTP 403
+	
+
+
+
+-------------------------------------
+-------------------------------------
