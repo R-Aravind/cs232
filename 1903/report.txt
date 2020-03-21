@@ -95,7 +95,7 @@ Remarks if any:
 -------------------------------------
 
 --------------------------------
-#3: LAMP stack (t8)(2)
+#3: LAMP stack (t8)(3)
 ---------------------------------
 
 Command/Shell script/Program name
