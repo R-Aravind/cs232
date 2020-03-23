@@ -50,7 +50,6 @@ plt.figure()
 df.iloc[:, 2].plot(kind='bar', title='Total Hospitalised')
 
 plt.figure()
-df.iloc[:, 4].plot(kind='bar', yticks=np.arange(
-    0, 25, 2), title='Corona Positive')
+df.iloc[:, 4].plot(kind='bar', title='Corona Positive')
 
 plt.show()
