@@ -1,0 +1,38 @@
+CEC CS 18 C47  25-03-2020
+R ARAVIND
+
+--------------------------------
+#1: COVID-19 District-Wise Data Visualisation
+---------------------------------
+
+Command:
+---------------------------------
+	
+	#
+	pip3 install -r requirements.txt
+	
+	#
+	python3 script.py
+	
+--------------------------------
+Output: 
+	
+	# The script makes use of an API and provides the live data when it is run.
+	
+	# LIVE data showing Number of patients in different districts affected by COVID-19
+	# plots showing patients under observation, hospitalised and those tested positive
+	
+	# Saved Output of the plots
+	Figure_1.png,Figure_2.png,Figure_3.png
+	
+	# Screenshot of the script in action
+	capture.png
+-------------------
+Remarks if any:
+
+	
+
+-------------------------------------
+-------------------------------------
+
+
