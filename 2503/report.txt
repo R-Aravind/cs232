@@ -2,7 +2,7 @@ CEC CS 18 C47  25-03-2020
 R ARAVIND
 
 --------------------------------
-#1: COVID-19 District-Wise Data Visualisation
+#1: COVID-19 Data Visualisation
 ---------------------------------
 
 Command:
@@ -18,15 +18,19 @@ Command:
 Output: 
 	
 	# The script makes use of an API and provides the live data when it is run.
+	# The data is from The Ministry of Health and Family Welfare, India
 	
-	# LIVE data showing Number of patients in different districts affected by COVID-19
-	# plots showing patients under observation, hospitalised and those tested positive
+	# The script is Menu Driven
+	# 1. Shows District wise data in table format
+	# 2. Shows District wise graphs
+	# 3. Shows Date wise plots of Cases in Kerala and India
 	
 	# Saved Output of the plots
-	Figure_1.png,Figure_2.png,Figure_3.png
+	Figure_1.png,Figure_2.png,Figure_3.png,Figure_4.png,Figure_5.png
 	
 	# Screenshot of the script in action
 	capture.png
+	
 -------------------
 Remarks if any:
 
