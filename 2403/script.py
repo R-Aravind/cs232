@@ -27,6 +27,23 @@ r = requests.get(url)
 daily_data = r.json()
 daily_data = daily_data['data']
 
+
+url = "https://www.covidvisualizer.com/api"
+r = requests.get(url)
+intl_data = r.json()
+world = intl_data['worldwide']
+intl_data = intl_data['countries']
+
+
+# View International Data
+#
+countries = []
+for x in intl_data.keys():
+    countries.append(intl_data[x]['name'])
+
+intl = pd.DataFrame(intl_data)
+intl = intl.iloc[[0, 2, 3, 4], :]
+
 #  Formated raw json data to lists
 #
 
@@ -68,10 +85,18 @@ df = pd.DataFrame(district_data, index=districts, columns=labels)
 # Visualisations using various libraries
 
 
+print('\n\n#### COVID-19 DATA VISUALISATION ####\n')
+print('## WORLDWIDE ##')
+print('Reported:', world['reports'], '| Deaths:',
+      world['deaths'], '| Recovered:', world['recovered'])
+
 print('\n##  MENU  ##\n')
 print('## 1. Table of District wise data in kerala ')
 print('## 2. District wise charts')
 print('## 3. Date wise plots of Cases in Kerala and India')
+print('## 4. Show Data of MOST affected countries')
+print('## 5. Show Data of ALL affected countries')
+
 
 ch = int(input('\n Enter a choice: '))
 
@@ -102,5 +127,14 @@ elif(ch == 3):
     plt.plot(np.arange(start=10, stop=10 + len(dates)), keralacases)
     plt.show()
 
+elif(ch == 4):
+    print(intl.iloc[:, :5])
+
+elif(ch == 5):
+    print('\n\n## Country -- Confirmed Cases -- Deaths -- Recovered Cases -- \n')
+    for x in intl_data.keys():
+        print('##', intl_data[x]['name'], '--', intl_data[x]['cases'],
+              '--', intl_data[x]['deaths'], '--', intl_data[x]['recovered'], '--')
+    print('\n')
 else:
     print('Wrong Choice')

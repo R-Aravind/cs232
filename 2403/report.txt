@@ -1,4 +1,4 @@
-CEC CS 18 C47  25-03-2020
+CEC CS 18 C47  24-03-2020
 R ARAVIND
 
 --------------------------------
@@ -18,13 +18,17 @@ Command:
 Output: 
 	
 	# The script makes use of an API and provides the live data when it is run.
-	# The data is from The Ministry of Health and Family Welfare, India
-	
+	# The data (for Indian States and Districts) is from The Ministry of Health and Family Welfare, India
+	# The data (International) is from World Health Organisation
+
+
 	# The script is Menu Driven
 	# 1. Shows District wise data in table format
 	# 2. Shows District wise graphs
 	# 3. Shows Date wise plots of Cases in Kerala and India
-	
+	# 4. Shows Data of Most Affected Countries
+	# 5. Shows Data of All Affected Countries
+
 	# Saved Output of the plots
 	Figure_1.png,Figure_2.png,Figure_3.png,Figure_4.png,Figure_5.png
 	
@@ -34,7 +38,7 @@ Output:
 -------------------
 Remarks if any:
 
-	
+	# Updated to add International Data and Worldwide Summary
 
 -------------------------------------
 -------------------------------------
