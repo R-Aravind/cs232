@@ -1,70 +1,163 @@
-CEC CS 18 C47 03-02-2020
+CEC CS 18 C47 30-03-2020
 R ARAVIND
 
 --------------------------------
-#1: SCRIPTING TASK (t2)
+#1: Shell Programming (s4)
 ---------------------------------
 
 Command/Shell script/Program name
 ---------------------------------
 	
-	/SX/script.sh
-
-Input: 
----------------
-
-	# result downloaded from ktu site
-	/SX/result_CHN.pdf
-
-	# student details file containing roll number 
-	/SX/students.txt
-
+	disp_sys_config_1.sh
 
 --------------------------------
 Output: 
 
-	# file with cgpa/count of subjects student failed in 
-	/SX/cgpa.txt
-
+	# Currently logged user and his login name 
+	# Current shell 
+	# Home directory 
+	# Operating system type 
+	# Current path setting 
+	# Current working directory 
+	# Users currently logged in 
 
 -------------------
 Remarks if any:
 
-	X in 'SX' is replaced with 1 or 2 for corresponding semester
-	eg: /S1/script.sh
 
 
 -------------------------------------
 -------------------------------------
 
 --------------------------------
-#2: Create own web page at our server (t9)
+#2: Shell Programming (s5)
 ---------------------------------
 
 Command/Shell script/Program name
 ---------------------------------
 		
-	# To fetch the sample index	
-	wget http://192.168.0.30/cs17d/cs17d00
-	# To put the page to the server
-	sftp
-	# To edit the contents of .html file
-	nano 	
+	disp_sys_config_2.sh
 
 --------------------------------
 Output: 
 
-	# The page can be viewed at
-	http://192.168.0.30/cs17d/cs18c47
+	# your OS and version, release number, kernel version 
+	# all available shells 
+	# computer CPU information like processor type, speed etc 
+	# memory information 
+	# hard disk information like size of hard-disk, cache memory, model etc 
+	# File system (Mounted) 
 
 -------------------
 Remarks if any:
-	
-	The server still shows the batch /cs17d, while our batch is /cs18c 
-	The links to thw work.txt nd report.txt are giving a HTTP 403
+
 	
 
 
 
+-------------------------------------
+-------------------------------------
+
+--------------------------------
+#3: Menu driven calculator (s6)
+---------------------------------
+
+Command/Shell script/Program name
+---------------------------------
+		
+	calculator.sh
+
+--------------------------------
+Output: 
+
+	# Screenshot showing calculator in action
+	capture_1.png
+	
+-------------------
+Remarks if any:
+
+	
+-------------------------------------
+-------------------------------------
+
+--------------------------------
+#4: Add Names Script (s7)
+---------------------------------
+
+Command/Shell script/Program name
+---------------------------------
+		
+	./addnames
+
+--------------------------------
+Input: 
+	
+	# Here the script will check if "filename" exists and if it does the script will check if "username" is in that file.
+	# If file doesn't exist it will print error message
+	# If username is not in file it will add the name to the file
+	
+	./addnames <filename> <username>
+	
+-------------------
+Remarks if any:
+
+	
+-------------------------------------
+-------------------------------------
+
+--------------------------------
+#5: Version Control System (s8)
+---------------------------------
+
+Command/Shell script/Program name
+---------------------------------
+	
+	# Initialises Git Repository		
+	git init
+	
+	# Displays Status of working tree
+	git status
+	
+	# Tracks all changes ( Use git add filename to track a specific file )
+	git add .
+	
+	# Commits tracked changes 
+	git commit -m "commit message"
+	
+	# Displays log of changes
+	git log
+	
+	# Reverts last commit 
+	git revert HEAD
+	
+	# Creates a new branch called test
+	git branch test
+	
+	# Checkouts into test branch
+	git checkout test
+	
+	# Pushes Repository to master branch of remote origin (i.e. : https://github.com/ceccs18c47/cs232/)
+	git push origin master
+	
+	# Merges Master to test
+	git merge master
+	
+	# Pulls Repository from remote
+	git pull
+
+--------------------------------
+Output: 
+	
+	# typescript of the above commands
+	git.txt
+	
+	# screenshot of commits from GitHub
+	capture_2.png
+	
+-------------------
+Remarks if any:
+
+	# "git init" was skipped because Working Directory was an existing repository
+	
 -------------------------------------
 -------------------------------------
