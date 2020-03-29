@@ -32,7 +32,7 @@ lshw -class disk -class storage
 echo "-------"
 echo ""
 
-echo "## File System (Mounted) :"
+echo "## File System Information :"
 echo ""
 cat /proc/mounts
 echo "-------"
