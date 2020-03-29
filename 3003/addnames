@@ -1,0 +1,28 @@
+#!/bin/bash
+
+
+# Arguments are read into $1,$2,..
+# Number of arguments are available at $# 
+
+
+
+if [[ $# -eq 2 ]] # Checks if no. of arguments are correct
+then
+
+	if test -f "$1"; then # Checks if file Exists
+		
+		if grep -Fxq "$2" "$1"; then  # Checks if name exists in file, if exists exit status is 0 (True) otherwise it is 1 (False)
+			echo "$2 Exists in file"
+		else
+			echo "$2" >> $1
+			echo "Added $2"
+		fi
+
+	else 
+		echo "ERROR!! FILE DOESNT EXIST"
+	fi
+
+else
+	echo "Wrong Number of Arguments"
+fi
+
