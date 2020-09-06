@@ -1,0 +1,154 @@
+Script started on 2020-03-30 01:50:42+05:30 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="191" LINES="45"]
+(base) ]0;aravind@rogue: ~/fosslab/LAB-CTRPRT/cs232/3003[01;32maravind@rogue[00m:[01;34m~/fosslab/LAB-CTRPRT/cs232/3003[00m$ git [K[K[K[Kg[Kg[Kgit status
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31m.gitignore[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+(base) ]0;aravind@rogue: ~/fosslab/LAB-CTRPRT/cs232/3003[01;32maravind@rogue[00m:[01;34m~/fosslab/LAB-CTRPRT/cs232/3003[00m$ git add .
+(base) ]0;aravind@rogue: ~/fosslab/LAB-CTRPRT/cs232/3003[01;32maravind@rogue[00m:[01;34m~/fosslab/LAB-CTRPRT/cs232/3003[00m$ git commit -m ""a"[1P"A"d"d"e"d" "a" "f"i"l"e"[1P"[1P"[1P"[1P"g"i"t"i"g"n"o"r"e"
+[master c938f3f] Added a gitignore
+ 1 file changed, 1 insertion(+)
+ create mode 100644 3003/.gitignore
+(base) ]0;aravind@rogue: ~/fosslab/LAB-CTRPRT/cs232/3003[01;32maravind@rogue[00m:[01;34m~/fosslab/LAB-CTRPRT/cs232/3003[00m$ touch tex[Ks[Kxt
+(base) ]0;aravind@rogue: ~/fosslab/LAB-CTRPRT/cs232/3003[01;32maravind@rogue[00m:[01;34m~/fosslab/LAB-CTRPRT/cs232/3003[00m$ touch text[Ktouch textgit commit -m "Added a gitignore"add .[K && git commt[Kit -m "text"
+[master 97f337f] text
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 3003/text
+(base) ]0;aravind@rogue: ~/fosslab/LAB-CTRPRT/cs232/3003[01;32maravind@rogue[00m:[01;34m~/fosslab/LAB-CTRPRT/cs232/3003[00m$ git log
+[?1h=[33mcommit 97f337f7e2a2d076b70cdbe60cea70242f2c45f8[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m[m
+Author: R-Aravind <aravind.ar786@gmail.com>[m
+Date:   Mon Mar 30 01:52:07 2020 +0530[m
+[m
+    text[m
+[m
+[33mcommit c938f3f062898feaa4fb30e4869874b06203847e[m[m
+Author: R-Aravind <aravind.ar786@gmail.com>[m
+Date:   Mon Mar 30 01:51:37 2020 +0530[m
+[m
+    Added a gitignore[m
+[m
+[33mcommit b95a06320e817e88f5ba79794f6565baaf5afcba[m[m
+Author: R-Aravind <aravind.ar786@gmail.com>[m
+Date:   Mon Mar 30 01:34:37 2020 +0530[m
+[m
+    Added addnames script[m
+[m
+[33mcommit 1009bc47d54b0f7ece268eea179604dc349ab1fd[m[m
+Author: R-Aravind <aravind.ar786@gmail.com>[m
+Date:   Mon Mar 30 01:16:05 2020 +0530[m
+[m
+    added scripts to display config & simple calculator[m
+[m
+[33mcommit fd473661e18d0811f17d80c9e525b61d7c0b3725[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: R-Aravind <aravind.ar786@gmail.com>[m
+Date:   Thu Mar 26 00:06:59 2020 +0530[m
+[m
+    Updated Requirements.txt[m
+[m
+[33mcommit 8d1ab312f7b3ec842b24a2bf435dfbe78276cb6c[m[m
+Author: R-Aravind <aravind.ar786@gmail.com>[m
+Date:   Wed Mar 25 23:53:58 2020 +0530[m
+[m
+    Added International Data[m
+[m
+[33mcommit b07ef6d991c3b940a6888319068df8ae9f22b131[m[m
+Author: R-Aravind <aravind.ar786@gmail.com>[m
+Date:   Tue Mar 24 19:12:00 2020 +0530[m
+[m
+    FIXED wrong date; Added Menu and Date wise Plots[m
+[m
+[33mcommit 754a770d653a610b28cfe98d1cd337ecc8a027e5[m[m
+Author: R-Aravind <aravind.ar786@gmail.com>[m
+:[K[K[?1l>(base) ]0;aravind@rogue: ~/fosslab/LAB-CTRPRT/cs232/3003[01;32maravind@rogue[00m:[01;34m~/fosslab/LAB-CTRPRT/cs232/3003[00m$ rm text 
+(base) ]0;aravind@rogue: ~/fosslab/LAB-CTRPRT/cs232/3003[01;32maravind@rogue[00m:[01;34m~/fosslab/LAB-CTRPRT/cs232/3003[00m$ rm text [1Pgit logrm text [1Pgit logadd . && git commit -m "text"touch text[Kgit add . && git commit -m "text"rtext"etext"mtext"otext"vtext"etext"dtext" text"
+[master dcff6cf] removed text
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ delete mode 100644 3003/text
+(base) ]0;aravind@rogue: ~/fosslab/LAB-CTRPRT/cs232/3003[01;32maravind@rogue[00m:[01;34m~/fosslab/LAB-CTRPRT/cs232/3003[00m$ gir[Kt rec[Kvert HEAD
+hint: Waiting for your editor to close the file... [?1049h[22;0;0t[1;45r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[43;89H(B[0;7m[ Reading... ](B[m[43;88H(B[0;7m[ Read 14 lines ](B[m[H(B[0;7m  GNU nano 4.3                                                      /home/aravind/fosslab/LAB-CTRPRT/cs232/.git/COMMIT_EDITMSG                                                                 [1;190H(B[m[44d(B[0;7m^G(B[m Get Help[18G(B[0;7m^O(B[m Write Out     (B[0;7m^W(B[m Where Is[52G(B[0;7m^K(B[m Cut Text[69G(B[0;7m^J(B[m Justify[86G(B[0;7m^C(B[m Cur Pos[103G(B[0;7mM-U(B[m Undo[44;120H(B[0;7mM-A(B[m Mark Text    (B[0;7mM-](B[m To Bracket   (B[0;7mM-Q(B[m Previous     (B[0;7m^B(B[m Back[45d(B[0;7m^X(B[m Exit[45;18H(B[0;7m^R(B[m Read File     (B[0;7m^\(B[m Replace[52G(B[0;7m^U(B[m Paste Text    (B[0;7m^T(B[m To Spell[86G(B[0;7m^_(B[m Go To Line    (B[0;7mM-E(B[m Redo[45;120H(B[0;7mM-6(B[m Copy Text    (B[0;7m^Q(B[m Where Was     (B[0;7mM-W(B[m Next[45;171H(B[0;7m^F(B[m Forward[43d[2d[39;49m(B[mRevert "removed text"[4dThis reverts commit dcff6cfe31939987e21450f5701b24df621b9544.[6d[36m# Please enter the commit message for your changes. Lines starting[7d# with '#' will be ignored, and an empty message aborts the commit.[8d#[9d# On branch master[10d# Your branch is ahead of 'origin/master' by 5 commits.[11d#   (use "git push" to publish your local commits)[12d#[13d# Changes to be committed:[14d#       new file:   3003/text[15d#[2d[39m(B[m[?12l[?25h[?25l[1;182H(B[0;7mModified(B[m[2dXRevert "removed text"X[?12l[?25h[?25l[1P[?12l[?25h[?25l[43d(B[0;7mSave modified buffer?                                                                                                                                                                          [44;1H Y(B[m Yes[K[45d(B[0;7m N(B[m No  [45;17H(B[0;7m^C(B[m Cancel[K[43;23H[?12l[?25h[?25l[?12l[?25h[?25l[44d(B[0;7m^G(B[m Get Help[44;48H(B[0;7mM-D(B[m DOS Format[44;95H(B[0;7mM-A(B[m Append[44;142H(B[0;7mM-B(B[m Backup File[45d(B[0;7m^C(B[m Cancel[17G         [45;48H(B[0;7mM-M(B[m Mac Format[45;95H(B[0;7mM-P(B[m Prepend[45;142H(B[0;7m^T(B[m To Files[43d(B[0;7mFile Name to Write: /home/aravind/fosslab/LAB-CTRPRT/cs232/.git/COMMIT_EDITMSG(B[m[43;79H[?12l[?25h[?25l[K[1;190H[43;89H(B[0;7m[ Writing... ](B[m[1;182H(B[0;7m        (B[m[43;87H(B[0;7m[ Wrote 14 lines ](B[m[J[45;191H[?12l[?25h[45;1H[?1049l[23;0;0t[?1l>[K[master 29b9051] Revert "removed text"
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 3003/text
+(base) ]0;aravind@rogue: ~/fosslab/LAB-CTRPRT/cs232/3003[01;32maravind@rogue[00m:[01;34m~/fosslab/LAB-CTRPRT/cs232/3003[00m$ git revert HEADadd . && git commit -m "removed text"revert HEAD[K[Kls
+[0m[01;32maddnames[0m  [01;32mcalculator.sh[0m  [01;32mdisp_sys_config_2.sh[0m  [01;32mdisp_sys_config.sh[0m  git.txt  report.txt  text
+(base) ]0;aravind@rogue: ~/fosslab/LAB-CTRPRT/cs232/3003[01;32maravind@rogue[00m:[01;34m~/fosslab/LAB-CTRPRT/cs232/3003[00m$ git push origin master[Kr
+Username for 'https://github.com': cs18c47      eccs18c47
+Password for 'https://ceccs18c47@github.com': 
+Enumerating objects: 21, done.
+Counting objects:   4% (1/21)   Counting objects:   9% (2/21)   Counting objects:  14% (3/21)   Counting objects:  19% (4/21)   Counting objects:  23% (5/21)   Counting objects:  28% (6/21)   Counting objects:  33% (7/21)   Counting objects:  38% (8/21)   Counting objects:  42% (9/21)   Counting objects:  47% (10/21)   Counting objects:  52% (11/21)   Counting objects:  57% (12/21)   Counting objects:  61% (13/21)   Counting objects:  66% (14/21)   Counting objects:  71% (15/21)   Counting objects:  76% (16/21)   Counting objects:  80% (17/21)   Counting objects:  85% (18/21)   Counting objects:  90% (19/21)   Counting objects:  95% (20/21)   Counting objects: 100% (21/21)   Counting objects: 100% (21/21), done.
+Delta compression using up to 4 threads
+Compressing objects:   5% (1/18)   Compressing objects:  11% (2/18)   Compressing objects:  16% (3/18)   Compressing objects:  22% (4/18)   Compressing objects:  27% (5/18)   Compressing objects:  33% (6/18)   Compressing objects:  38% (7/18)   Compressing objects:  44% (8/18)   Compressing objects:  50% (9/18)   Compressing objects:  55% (10/18)   Compressing objects:  61% (11/18)   Compressing objects:  66% (12/18)   Compressing objects:  72% (13/18)   Compressing objects:  77% (14/18)   Compressing objects:  83% (15/18)   Compressing objects:  88% (16/18)   Compressing objects:  94% (17/18)   Compressing objects: 100% (18/18)   Compressing objects: 100% (18/18), done.
+Writing objects:   5% (1/20)   Writing objects:  15% (3/20)   Writing objects:  20% (4/20)   Writing objects:  25% (5/20)   Writing objects:  30% (6/20)   Writing objects:  35% (7/20)   Writing objects:  40% (8/20)   Writing objects:  45% (9/20)   Writing objects:  50% (10/20)   Writing objects:  55% (11/20)   Writing objects:  60% (12/20)   Writing objects:  65% (13/20)   Writing objects:  70% (14/20)   Writing objects:  75% (15/20)   Writing objects:  80% (16/20)   Writing objects:  85% (17/20)   Writing objects:  90% (18/20)   Writing objects:  95% (19/20)   Writing objects: 100% (20/20)   Writing objects: 100% (20/20), 2.40 KiB | 818.00 KiB/s, done.
+Total 20 (delta 9), reused 0 (delta 0)
+remote: Resolving deltas:  11% (1/9)[Kremote: Resolving deltas:  22% (2/9)[Kremote: Resolving deltas:  55% (5/9)[Kremote: Resolving deltas: 100% (9/9)[Kremote: Resolving deltas: 100% (9/9), completed with 1 local object.[K
+To https://github.com/ceccs18c47/cs232/
+   fd47366..29b9051  master -> master
+(base) ]0;aravind@rogue: ~/fosslab/LAB-CTRPRT/cs232/3003[01;32maravind@rogue[00m:[01;34m~/fosslab/LAB-CTRPRT/cs232/3003[00m$ git add [K[K[K[Kstatus
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   text[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+(base) ]0;aravind@rogue: ~/fosslab/LAB-CTRPRT/cs232/3003[01;32maravind@rogue[00m:[01;34m~/fosslab/LAB-CTRPRT/cs232/3003[00m$ git add .
+(base) ]0;aravind@rogue: ~/fosslab/LAB-CTRPRT/cs232/3003[01;32maravind@rogue[00m:[01;34m~/fosslab/LAB-CTRPRT/cs232/3003[00m$ git commit -m ""C"o"n"f"l"i"c"t"
+[master ab6e626] Conflict
+ 1 file changed, 1 insertion(+)
+(base) ]0;aravind@rogue: ~/fosslab/LAB-CTRPRT/cs232/3003[01;32maravind@rogue[00m:[01;34m~/fosslab/LAB-CTRPRT/cs232/3003[00m$ git pull
+remote: Enumerating objects: 7, done.[K
+remote: Counting objects:  14% (1/7)[Kremote: Counting objects:  28% (2/7)[Kremote: Counting objects:  42% (3/7)[Kremote: Counting objects:  57% (4/7)[Kremote: Counting objects:  71% (5/7)[Kremote: Counting objects:  85% (6/7)[Kremote: Counting objects: 100% (7/7)[Kremote: Counting objects: 100% (7/7), done.[K
+remote: Compressing objects:  33% (1/3)[Kremote: Compressing objects:  66% (2/3)[Kremote: Compressing objects: 100% (3/3)[Kremote: Compressing objects: 100% (3/3), done.[K
+remote: Total 4 (delta 2), reused 0 (delta 0), pack-reused 0
+Unpacking objects:  25% (1/4)   Unpacking objects:  50% (2/4)   Unpacking objects:  75% (3/4)   Unpacking objects: 100% (4/4)   Unpacking objects: 100% (4/4), done.
+From https://github.com/ceccs18c47/cs232
+   29b9051..74e73a1  master     -> origin/master
+Auto-merging 3003/text
+CONFLICT (content): Merge conflict in 3003/text
+Automatic merge failed; fix conflicts and then commit the result.
+(base) ]0;aravind@rogue: ~/fosslab/LAB-CTRPRT/cs232/3003[01;32maravind@rogue[00m:[01;34m~/fosslab/LAB-CTRPRT/cs232/3003[00m$ git branch
+[?1h=* [32mmaster[m[m
+[K[?1l>(base) ]0;aravind@rogue: ~/fosslab/LAB-CTRPRT/cs232/3003[01;32maravind@rogue[00m:[01;34m~/fosslab/LAB-CTRPRT/cs232/3003[00m$ git branch test
+(base) ]0;aravind@rogue: ~/fosslab/LAB-CTRPRT/cs232/3003[01;32maravind@rogue[00m:[01;34m~/fosslab/LAB-CTRPRT/cs232/3003[00m$ git checkout test 
+3003/text: needs merge
+error: you need to resolve your current index first
+(base) ]0;aravind@rogue: ~/fosslab/LAB-CTRPRT/cs232/3003[01;32maravind@rogue[00m:[01;34m~/fosslab/LAB-CTRPRT/cs232/3003[00m$ r[Kgit merge master
+error: Merging is not possible because you have unmerged files.
+[33mhint: Fix them up in the work tree, and then use 'git add/rm <file>'[m
+[33mhint: as appropriate to mark resolution and make a commit.[m
+fatal: Exiting because of an unresolved conflict.
+(base) ]0;aravind@rogue: ~/fosslab/LAB-CTRPRT/cs232/3003[01;32maravind@rogue[00m:[01;34m~/fosslab/LAB-CTRPRT/cs232/3003[00m$ git status
+On branch master
+Your branch and 'origin/master' have diverged,
+and have 1 and 1 different commits each, respectively.
+  (use "git pull" to merge the remote branch into yours)
+
+You have unmerged paths.
+  (fix conflicts and run "git commit")
+  (use "git merge --abort" to abort the merge)
+
+Unmerged paths:
+  (use "git add <file>..." to mark resolution)
+
+	[31mboth modified:   text[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+(base) ]0;aravind@rogue: ~/fosslab/LAB-CTRPRT/cs232/3003[01;32maravind@rogue[00m:[01;34m~/fosslab/LAB-CTRPRT/cs232/3003[00m$ git add[K[K[Kcommit -a ""t"e"s"[1P"[1P"[1P"C"o"n"f"l"i"c"t" "R"e"s"o"l"u"t"i"o"n"[C
+fatal: Paths with -a does not make sense.
+(base) ]0;aravind@rogue: ~/fosslab/LAB-CTRPRT/cs232/3003[01;32maravind@rogue[00m:[01;34m~/fosslab/LAB-CTRPRT/cs232/3003[00m$ git commit -a "Conflict Resolution"status[K[K[K[K[K[K[Kadd .
+(base) ]0;aravind@rogue: ~/fosslab/LAB-CTRPRT/cs232/3003[01;32maravind@rogue[00m:[01;34m~/fosslab/LAB-CTRPRT/cs232/3003[00m$ git add .commit -a "Conflict Resolution"[1P[1@m
+[master 7e4cc85] Conflict Resolution
+(base) ]0;aravind@rogue: ~/fosslab/LAB-CTRPRT/cs232/3003[01;32maravind@rogue[00m:[01;34m~/fosslab/LAB-CTRPRT/cs232/3003[00m$ git pull
+Already up to date.
+(base) ]0;aravind@rogue: ~/fosslab/LAB-CTRPRT/cs232/3003[01;32maravind@rogue[00m:[01;34m~/fosslab/LAB-CTRPRT/cs232/3003[00m$ exit
+exit
+
+Script done on 2020-03-30 02:00:40+05:30 [COMMAND_EXIT_CODE="0"]

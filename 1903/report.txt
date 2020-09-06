@@ -1,0 +1,145 @@
+CEC CS 18 C47  19-03-2020
+R ARAVIND
+
+--------------------------------
+#1: Kernel Compilation (t8)(4)
+---------------------------------
+
+Command/Shell script/Program name
+---------------------------------
+	
+	# Download the latest stable kernel (source: kernel.org)
+	wget https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.5.9.tar.xz
+	
+	# Extract the source code
+	unxz -v linux-5.5.9.tar.xz
+	
+	# Download the PGP Signature for the kernel (source: kernel.org)
+	wget https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.5.9.tar.sign
+	
+	# Verify the kernel tartball with GnuPG
+	gpg --verify linux-5.5.9.tar.sign
+	
+	# Extract the tartball
+	tar xvf linux-5.5.9.tar
+	
+	cd linux-5.5.9
+	
+	# create the configuration file (copied the existing config for convinience) 
+	cp -v /boot/config-$(uname -r) .config
+	
+	# Install Development tools required to compile the kernel
+	sudo apt-get install build-essential libncurses-dev bison flex libssl-dev libelf-dev
+	
+	# Compile the Kernel 
+	make -j $(nproc)
+	
+	
+--------------------------------
+Output: 
+
+	# Compiled Kernel at /linux-5.5.9
+	Screenshot of the compiled files is attached - 1.png
+
+-------------------
+Remarks if any:
+
+	# The kernel files couldn't be uploaded as such, because the file size was too large.
+
+-------------------------------------
+-------------------------------------
+
+--------------------------------
+#2: Package management (t8)(1)
+---------------------------------
+
+Command/Shell script/Program name
+---------------------------------
+		
+	# Install code.deb
+	sudo dpkg -i code.deb
+	
+	# Remove code.deb
+	sudo dpkg -r code
+	
+	# Update list of available packages
+	sudo apt update
+	
+	# Install a package (eg: nmap)
+	sudo apt-get install nmap
+	
+	# Remove a package
+	sudo apt remove nmap
+	
+	# List all installed packages
+	sudo apt list > packages.txt
+
+--------------------------------
+Input: 
+
+	# .deb package of VS Code, source: https://code.visualstudio.com/download
+	code.deb
+	
+--------------------------------
+Output: 
+	
+	# List of installed packages
+	packages.txt
+
+-------------------
+Remarks if any:
+	
+	
+
+-------------------------------------
+-------------------------------------
+
+--------------------------------
+#3: LAMP stack (t8)(3)
+---------------------------------
+
+Command/Shell script/Program name
+---------------------------------
+
+	# Modifies Permissions
+	sudo chmod 777 lamp.sh
+	
+	# Runs script to install LAMP stack
+	./lamp.sh
+	
+	# changes Directory Configuration of Apache to enable php
+	sudo vim /etc/apache2/mods-enabled/dir.conf
+	
+	# php file to display php version information
+	sudo nano /var/www/html/info.php
+	
+	# Adds php file
+	sudo vim /var/www/html/index.php
+		
+
+--------------------------------
+Input: 
+	
+	# script file for setting up LAMP
+	lamp.sh	
+	
+	# php file for showing version info
+	info.php
+	
+	# php file hosted in local host
+	index.php	
+--------------------------------
+Output: 
+	
+	# php version info at 127.0.0.1/info.php
+	screenshot - 2.png
+	
+	# php page at 127.0.0.1
+	screenshot - 3.png
+
+-------------------
+Remarks if any:
+	
+
+-------------------------------------
+-------------------------------------

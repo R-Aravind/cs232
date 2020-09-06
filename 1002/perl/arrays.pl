@@ -1,4 +1,4 @@
-#!/usr/bin/perl/
+#!/usr/bin/perl
 
 # arrays
 @langs = ('c++', 'c', 'java', 'python', 'javascript');
